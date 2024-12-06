@@ -1,0 +1,135 @@
+body {
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    background-image: url('../assets/regis.png');
+    background-size: cover; /* Menyesuaikan ukuran gambar agar menutupi seluruh halaman */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */ 
+    justify-content: center; /* Pusatkan konten secara horizontal */
+    align-items: center; /* Pusatkan konten secara vertikal */
+}
+
+.Rectangle6 {
+    width: 430px;
+    height: 418px;
+    left: 0px;
+    top: 9px;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 100px;
+    background: #0C49A1;
+    border-radius: 80px;
+}
+.Rectangle7 {
+    width: 371px;
+    height: 418px;
+    left: 47px;
+    top: 3.18px;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 100px;
+    background: white;
+    border-radius: 80px;
+    border: 9px #3788D7 solid
+}
+.Login {
+    width: 234px;
+    height: 59px;
+    left: 40px;
+    top: 22px;
+    position: absolute;
+    margin-right: 0px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;            
+}
+.account p{
+color: black;
+font-size: 13px;
+font-family: 'Alata', sans-serif;
+font-weight: 400;
+margin-left: 38px;
+word-wrap: break-word;
+}
+.account span{
+color: #7DB5FE;
+cursor: pointer;
+}
+.ggl{
+width: 40px; 
+height: 40px; 
+left: 135px; 
+top: 260px; 
+position: absolute;
+cursor: pointer;
+}
+.fcbok{
+width: 48px; 
+height: 40px; 
+left: 178px; 
+top: 260px; 
+position: absolute;
+cursor: pointer;
+}
+.tonton{
+width: 300px; 
+height: 56px; 
+left: 34px; 
+top: 330px; 
+position: absolute; 
+background: #7DB5FE; 
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.30); 
+border-radius: 16px; 
+overflow: hidden; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+display: inline-flex;
+cursor: pointer;
+}
+.logo{
+width: 100px;
+height: 70px;
+margin-left: 7px;
+margin-right: 2100px;
+margin-bottom: 450px;
+cursor: pointer;
+float: left;
+}
+
+
+.log input[type="text"]
+{
+width: 300px;
+padding: 10px;
+margin-top: 105px;
+margin-left: 38px;
+border: none;
+border-bottom: 2px solid #000000;
+box-sizing: border-box;
+transition: all 0.3s ease;
+outline: none;
+background-color: transparent;
+}
+.log input[type="password"]{
+width: 300px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 38px;
+border: none;
+border-bottom: 2px solid #000000;
+box-sizing: border-box;
+transition: all 0.3s ease;
+outline: none;
+background-color: transparent;
+}
+
+.log input[type="text"]:focus,
+.log input[type="password"]:focus {
+border: 1px solid #004B9B;
+border-radius: 5px;
+background-color: #f0f8ff;
+outline: none;
+}
